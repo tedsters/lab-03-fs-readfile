@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/tedsters/lab-03-fs-readfile#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "mocha": "^3.2.0"
   }
 }
