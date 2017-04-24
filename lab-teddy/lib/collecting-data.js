@@ -2,7 +2,8 @@
 
 const fs = require('fs');
 
-module.exports = function(callback){
+module.exports = function(err, callback){
+  if (err) throw err;
   let dataArray = [];
   fs.readFile(`${__dirname}/../data/one.text`, function(err, data){
     if(err) throw err;

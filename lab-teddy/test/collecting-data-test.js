@@ -5,7 +5,6 @@ const Buffer = require('buffer').Buffer;
 const fs = require('fs');
 const dataFiles = require('../lib/collecting-data.js');
 let mocData = [ '436f707972696768', '4c6f72656d206970', '4c6f72656d206970' ];
-console.log(exports);
 describe('collecting-data.js', function(){
   it('should be an object', done => {
     fs.readFile(`${__dirname}/../data/one.text`, function(err, data){
